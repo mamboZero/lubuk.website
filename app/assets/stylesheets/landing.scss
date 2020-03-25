@@ -1,3 +1,120 @@
-// Place all the styles related to the landing controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+//Google fonts
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Oswald:400,600&display=swap');
+
+
+body{
+  background-image: url('iwebmy-bg');
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: 'EB Garamond', serif !important;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+#section{
+  margin-top:50px;
+}
+h1.display{
+  font-size: 10px;
+  background: -webkit-linear-gradient(#333399,#ff00cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+// color: #ff00cc;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+// -webkit-background-clip: text;
+// -webkit-text-fill-color:transparent;
+// color: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.women{
+  width: 150%;
+}
+
+.typewriter h1 {
+  font-size: 5.1rem;
+  color: #495057;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  // letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 6s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffc107 }
+}
+
+p.desc{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+p.tagline{
+  font-size: 2rem;
+  font-weight: bolder;
+  color:#bd2130;
+}
+
+@media only screen and (max-width: 600px){
+  .hidden-w-m{
+    display:none;
+  }
+  .show-w-m{
+display: block;
+  }
+
+  .typewriter h1 {
+    font-size: 3.1rem;
+    color: #495057;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    // letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typing 6s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffc107 }
+  }
+  
+  p.desc{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+  p.tagline{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#bd2130;
+  }
+}
