@@ -3,11 +3,11 @@
 
 
 body{
-  background-image: url('../images/iwebbg-2-3.png');
-  background-size: contain;
+  background-image: url('https://1.bp.blogspot.com/-hCbROudvXCk/XnxMTeOpVyI/AAAAAAAAAEw/grYGFtQWLKEio25JqnU03MdP5CrZOiwAwCLcBGAsYHQ/s1600/iwebbg-2-3.png');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 600px 54px;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   font-family: 'EB Garamond', serif !important;
   overflow: hidden;
 }
@@ -38,10 +38,10 @@ h1.display{
 
 }
 
-.women{
-  width: 150%;
-}
 
+.women-m{
+  width: 80%;
+}
 .typewriter h1 {
   font-size: 5.1rem;
   color: #495057;
