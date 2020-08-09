@@ -9,7 +9,7 @@ body{
   // background-position: 600px 54px;
   // background-attachment: fixed;
   font-family: 'EB Garamond', serif !important;
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 h1,
@@ -123,7 +123,7 @@ display: block;
 
 //whatsapp floating button
 .float{
-	// position:fixed;
+	position:fixed;
 	width:60px;
 	height:60px;
 	bottom:40px;
